@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-color: rgb(58, 55, 55);
+}
+
+table {
+  padding: 2rem 0 3rem 0;
+  margin: 0px 5px 0px 50px;
+}
+
+th,
+td {
+
+  padding: 3px;
+  color: #fff;
+  border-bottom: 1px solid rgb(165, 127, 127);
+  font-size: 20px;
+  height: 7vh;
+
+}
+
+img {
+  width: 30px;
+}
+#data.positiveValues {
+  color: green
+}
+
+#data.negativeValues {
+  color: rgb(94, 44, 51);
+}
